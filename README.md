@@ -1,10 +1,12 @@
 
 <center>
 
+
 ![dijagram klasa](./dijagram-klasa.jpg)
 
-Model
+
 </center>
+
 
 # Baza
 
