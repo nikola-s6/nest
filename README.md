@@ -72,7 +72,7 @@ Ukoliko se prosledi i neki ispit onda ce i on biti sacuvan:
 }
 ```
 
-# Exam controller
+## Exam controller
 
 *GET*: `http://localhost:3000/exam/:id/attempts` - vraca sva polaganja jednog ispita
 
@@ -85,7 +85,7 @@ body:
 }
 ```
 
-# StudentExam controller
+## StudentExam controller
 U ovom kontroleru sam probao kako funkcionise ValidationPipe za transformaciju zahteva
 
 *POST*: `http://localhost:3000/student/:studentId/exam/examId` - kreira polaganje studenta za odgovarajuci ispit. Ovde sam takodje probao upravljanje transakcijama
