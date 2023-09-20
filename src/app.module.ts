@@ -7,10 +7,13 @@ import { DatabaseModule } from './database.module';
 import { StudentModule } from './student/student.module';
 import { DepartmentModule } from './department/department.module';
 import { ExamModule } from './exam/exam.module';
+import typeorm from './config/typeorm';
 
 @Module({
   imports: [
-    ConfigModule.forRoot({}),
+    ConfigModule.forRoot({
+      load: [typeorm],
+    }),
     DatabaseModule,
     StudentModule,
     DepartmentModule,
